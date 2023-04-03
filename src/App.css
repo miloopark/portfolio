@@ -1,38 +1,170 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main {
+  position: relative;
+  width: 100%;
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.wrapping-border {
+  position: absolute;
+  width: 100.5%;
+  height: 100.5%;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.click-start {
+  position: absolute;
+  bottom: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.click-start img {
+  display: block;
+  width: 300px;
+  height: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
+
+.comingsoon {
+  position: absolute;
+  top: 225px;
+  left: 30px;
+  background: transparent;
+  scale: 75%;
+}
+
+.untitled {
+  position: absolute;
+  background: white;
+  width: 70%;
+  height: 70%;
+  left: 15%;
+  top: 15%;
+}
+
+.aboutme {
+  position: absolute;
+  top: 26%;
+  left: 22%;
+  width: 18%;
+  height: 39%;
+}
+
+.aboutmetext {
+  position: absolute;
+  bottom: 14.8%;
+  left: 1%;
+  width: 60%;
+  height: 35%;
+  scale: 14%;
+}
+
+.art {
+  position: absolute;
+  top: 25%;
+  left: 41.8%;
+  width: 10%;
+  height: 18%;
+  scale: 90%;
+}
+
+.arttext {
+  position: absolute;
+  top: 28%;
+  left: 24.2%;
+  width: 45%;
+  height: 35%;
+  scale: 12%;
+}
+
+.react {
+  position: absolute;
+  bottom: 12%;
+  left: 29%;
+  width: 30%;
+  height: 55%;
+  scale: 0.38;
+}
+
+.csportfolio {
+  position: absolute;
+  bottom: 18.8%;
+  left: 9.5%;
+  width: 100%;
+  height: 28%;
+  scale: 18%;
+}
+
+.veffect {
+  position: absolute;
+  bottom: 10.5%;
+  right: 18%;
+  width: 40%;
+  height: 85%;
+  scale: 34%;
+}
+
+.videostext {
+  position: absolute;
+  top: 17.5%;
+  left: 22%;
+  width: 80%;
+  height: 28%;
+  scale: 15%;
+}
+
+.contact {
+  position: absolute;
+  top: 15%;
+  right: 14%;
+  width: 20%;
+  height: 35%;
+  scale: 0.35;
+}
+
+.contacttext {
+  position: absolute;
+  top: 3%;
+  left: 67%;
+  width: 17%;
+  height: 100%;
+  scale: 20%;
+}
+
+.home {
+  position: absolute;
+  left: 1%;
+  width: 20%;
+  height: 35%;
+  scale: 25%;
+}
+
+.incase {
+  position: absolute;
+  top: 30%;
+  left: 26%;
+  height: 40%;
+  width: 51%;
+}
+
