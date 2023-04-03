@@ -21,7 +21,7 @@
 
 .click-start {
   position: absolute;
-  bottom: 150px;
+  bottom: 20%;
   left: 50%;
   transform: translateX(-50%);
   background: transparent;
@@ -48,8 +48,8 @@
 
 .comingsoon {
   position: absolute;
-  top: 225px;
-  left: 30px;
+  top: 25%;
+  left: 2%;
   background: transparent;
   scale: 75%;
 }
