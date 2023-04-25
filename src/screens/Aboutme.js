@@ -29,7 +29,6 @@ function Nav() {
     <video className='video' src={landingvideo} autoPlay loop muted />
     <img className='wrapping-border' src={wrappingborder}/>
     <animated.div style={props}>
-      <img className='untitled' src={paint}/>
       
       <button onClick={back}>
         <img className='home' src={world}/>
