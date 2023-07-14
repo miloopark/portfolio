@@ -65,6 +65,34 @@
   top: 15%;
 }
 
+.fishy,
+.waves,
+.stuck {
+  position: relative;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.scroll-container {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  width: 70%;
+  height: 70%;
+  overflow: auto;
+  background: transparent;
+}
+
+.scroll-container img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 200px; /* spacing between each picture */
+}
+
+
 .aboutme {
   position: absolute;
   top: 26%;

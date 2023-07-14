@@ -5,6 +5,10 @@ import paint from '../assets/paintuntitled.png'
 import world from "../assets/home.gif"
 import { useNavigate } from 'react-router-dom'
 
+import fishy from '../assets/fishy.png';
+import waves from '../assets/waves.png';
+import stuck from '../assets/stuck.png';
+
 import { useState } from 'react'
 import { useSpring, animated } from 'react-spring'
 
@@ -29,10 +33,13 @@ function Nav() {
     <video className='video' src={landingvideo} autoPlay loop muted />
     <img className='wrapping-border' src={wrappingborder}/>
     <animated.div style={props}>
-      <img className='untitled' src={paint}/>
-      
+      <div className="scroll-container">
+        <img className="stuck" src={stuck} alt="Stuck" />
+        <img className="fishy" src={fishy} alt="Fishy" />
+        <img className="waves" src={waves} alt="Waves" />
+      </div>
       <button onClick={back}>
-        <img className='home' src={world}/>
+        <img className="home" src={world} alt="Home" />
       </button>
     </animated.div>
 </div>
